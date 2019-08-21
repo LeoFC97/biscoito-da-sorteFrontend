@@ -9,7 +9,7 @@ export default function Routes(){
     return(
         <BrowserRouter>
             <Route path="/" exact component={Main}  />
-            <Route path="/frase/:id" component={Frase}  />
+            <Route path="/frase" component={Frase}  />
         </BrowserRouter>
     )
 }
